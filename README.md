@@ -75,6 +75,17 @@ print(meta.page_count, meta.encrypted, meta.has_javascript)
 | `AsyncPdfPageLimitValidator` | Public |
 | `default_async_pdf_validators` | Public |
 
+## Coverage
+
+The coverage badge is a **measured** total from
+`coverage report --include='src/*'`, not an aspirational 100%. CI enforces
+`--fail-under=80`.
+
+Most of the gap is defensive and format-variant code in `metadata.py`
+(malformed PDFs, annotation/JS/embed edge cases). Validators and policies are
+largely covered. Unlike Core / framework adapters, this package does not claim
+100% yet — fixtures for those branches are welcome.
+
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md).
