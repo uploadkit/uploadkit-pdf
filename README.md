@@ -1,5 +1,9 @@
 # uploadkit-pdf
 
+[![CI](https://github.com/uploadkit/uploadkit-pdf/actions/workflows/ci.yml/badge.svg)](https://github.com/uploadkit/uploadkit-pdf/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/badge/coverage-85%25-brightgreen)](https://github.com/uploadkit/uploadkit-pdf/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue)](pyproject.toml)
+
 PDF validators, policies, and metadata for UploadKit.
 
 ## What problem does this solve?
